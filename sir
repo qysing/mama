@@ -1,8 +1,20 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-            <title>你的应用名称</title>
-    </head>
-    <a style="text-align:center" href="itms-services:///?action=download-manifest&url=manifest.plist地址">点我下载</a>
+ <head> 
+  <title>iOS</title> 
+  <style type="text/css">
+.wp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+	</style> 
+ </head> 
+ <body> 
+  <div class="wp"> 
+   <div class="box"> 
+    <a href="itms-services://?action=download-manifest&amp;url=https://aaa.bbb.cn:32443/dl/rummy.plist" class="button"> <font size="20">Install APP</font> </a> 
+   </div> 
+  </div>  
+ </body>
 </html>
